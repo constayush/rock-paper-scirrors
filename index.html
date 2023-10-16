@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR SHOOT!</title>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <div class="main bg-[#EDE4FF] w-[100vw] h-[100vh] p-10 flex gap-[1rem] items-center justify-center ">
+
+
+        <div class="heading w-[50%] h-[80vh] flex flex-col justify-between ">
+            <div>
+                <h1 class="heading-h1 text-[#393E46] ">Rock</h1>
+                <h1 class="heading-h1 text-[#393E46] ">Paper</h1>
+                <h1 class="heading-h1 text-[#393E46] ">Scissors<span class="text-[#A076F9] text-[4.5rem]">!</span></h1>
+            </div>
+
+
+            <div class="gamesettings flex flex-col justify-center items-center gap-2 h-[50%] p-4 w-full rounded-lg  ">
+                <div class="bg-[#DFCCFB] msgSec rounded p-4">
+                    <h1 class="display text-[3rem] text-[#393E46]">START THE GAME!!</h1>
+                </div>
+                <div class="p-2 rounded-lg settingsSec">
+                    <label for="bestof" class="text-[2rem]">Best of?</label>
+                    <input type="number" class="text-[2rem] w-[4rem] " name="" id="bestof">
+
+                    <button
+                        class="playBtn  bg-[#915eff] p-5 text-[2rem] text-[#EDE4FF] rounded-lg w-[fit]">PLAY</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="game flex flex-col justify-center items-center w-[50%] bg-[#D7BBF5] rounded-lg gap-4 h-[80vh]  ">
+            <h1 class="text-[2rem]">CHOOSE</h1>
+            <div class="sec1 flex gap-10 w-fit h-fit justify-center rounded-lg bg-[#EDE4FF] p-10">
+
+                <button
+                    class="icons rock justify-center items-center flex bg-[#A076F9] rounded-lg h-[10rem] w-[10rem] text-[6rem]">
+                    <h1>✊</h1>
+                </button><!-- <img class="w-[10rem]" src="timmer.png"> -->
+                <button
+                    class="icons paper justify-center items-center flex bg-[#A076F9] rounded-lg h-[10rem] w-[10rem] text-[6rem]">
+                    <h1>👋</h1>
+                </button><!-- <img class="w-[10rem]" src="timmer.png"> -->
+                <button
+                    class="icons scissors justify-center items-center flex bg-[#A076F9] rounded-lg h-[10rem] w-[10rem] text-[6rem]">
+                    <h1>✌️</h1>
+                </button><!-- <img class="w-[10rem]" src="timmer.png"> -->
+            </div>
+
+            <div class="sec1 flex gap-10 w-fit h-fit justify-center items-center rounded-lg bg-[#EDE4FF] p-10">
+                <div class="text-[3rem]">
+                    <h1>COMPUTER</h1>
+                </div>
+                <div
+                    class="icons robotIcon justify-center items-center flex bg-[#A076F9] rounded-lg h-[10rem] w-[10rem] text-[6rem]">
+                    <h1 class="compemoji">🤖</h1>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
