@@ -39,7 +39,7 @@
   transform: scale(0.95);
 }
 
-.playBtn {
+.playBtn,.resetBtn {
   font-weight: 700;
 }
 
@@ -56,4 +56,11 @@
 .display {
   -webkit-text-stroke: #f6ff00 0.05px;
   color: #915eff;
+}
+
+
+#bestof{
+
+
+  transition: all .2s ease;
 }
